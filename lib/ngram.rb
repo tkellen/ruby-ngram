@@ -1,6 +1,5 @@
 class NGram
     VERSION = "1.0.0"
-
     attr_accessor :size, :word_separator, :padchar
 
     def initialize(opts={})
@@ -25,5 +24,6 @@ class NGram
             "#{word[idx, @size]}"
         end
     end
+
     private :process
 end
