@@ -1,5 +1,5 @@
 class NGram
-    VERSION = "0.1.0"
+    VERSION = "1.0.0"
 
     attr_accessor :size, :word_separator, :padchar
 
