@@ -15,7 +15,7 @@ require 'ngram'
 # these are default settings
 ngram = NGram.new({
   :size => 2,
-  :separator => " ",
+  :word_separator => " ",
   :padchar => "_"
 })
 # => #<NGram:0x10d9877f0 @padchar="_", @separator=" ", @size=2>
